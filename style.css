@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #101010;
+	gap: 3em;
+}
+button {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: #101010;
+	box-shadow: -1px -1px 30px rgba(255, 255, 255, 0.25), 1px 1px 30px rgba(70, 70, 70, .12);
+	border: 1px solid gainsboro;
+	font-size: 2.5rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: gainsboro;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #551a8b;
+	border: 1px solid #260b3e;
+}
+/* button::after {
+	box-shadow: -1px -1px 30px rgba(255, 255, 255, 0.25), 1px 1px 30px rgba(70, 70, 70, .12),
+		inset -1px -1px 30px rgba(255, 255, 255, 0.25), inset 1px 1px 30px rgba(70, 70, 70, .12);
+} */
+.counter {
+	width: 100px;
+	height: 100px;
+	background: #551a8b;
+	font-size: 2.5rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.25em;
+	margin: 0.5em;
+	box-shadow: -0.5px -0.5px 30px rgba(255, 255, 255, 0.25), .5px .5px 30px rgba(70, 70, 70, .12);
+	border: 4px solid #260b3e;
+	color: gainsboro;
+}
+.counter:hover {
+	background: #551a8b;
+	border: none;
+}
